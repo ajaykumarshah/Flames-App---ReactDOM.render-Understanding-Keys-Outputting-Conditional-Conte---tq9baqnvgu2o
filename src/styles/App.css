@@ -1,12 +1,29 @@
+#main {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
 h1 {
     color: #27aedb;
     text-align: center;
-    }
-    
+}
 
-button{
+input {
+    padding: 5px;
+    /* margin: 2px; */
+}
+
+button {
     color: #27aedb;
     text-align: center;
     justify-content: center;
     align-items: center;
+    padding: 10px;
+    margin: 5px;
+    font-size: 15px;
+    font-weight: 700;
 }
